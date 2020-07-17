@@ -6,6 +6,7 @@
 .container {
     width: 1040px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 .promo {
     background-color: #f74c55;
@@ -418,3 +419,4 @@
         }
     }
 }
+@import 'media';
