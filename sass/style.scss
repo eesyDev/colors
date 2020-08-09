@@ -9,7 +9,7 @@
     padding: 0 15px;
 }
 .promo {
-    background-color: #f74c55;
+    background-color: #071e3d;
     height: 350px;
     padding: 34px 0 156px;
     position: relative;
@@ -23,7 +23,7 @@
         color: #ffffff;
         z-index: 8;
         top: 15px;
-        left: 120px;
+        left: 15px;
     }
     header {
         display: flex;
@@ -39,6 +39,9 @@
                         text-decoration: none;
                         text-transform: uppercase;
                         color: #fff;
+                        &:hover {
+                            color: #c6da20;
+                        }
                     }
                 }
             }
@@ -61,7 +64,6 @@
         }
         &-button {
             width: 150px;
-            padding: 3px;
             height: 41px;
             border: 2.0px solid #ffffff;
             border-radius: 5px;
@@ -69,6 +71,12 @@
             font-size: 24.1px;
             font-weight: 400;
             color: #ffffff;
+            outline: none;
+            &:hover {
+                background-color: #c6da20;
+                color: #232323;
+                border-color: #232323;
+            }
         }
     }
     .big {
@@ -76,50 +84,50 @@
         &-orange-1 {
             position: absolute;
             top: -132px;
-            left: -135px;
+            left: -233px;
             width: 205px;
             height: 205px;
-            background-color: #ee732f;
+            background-color: #21e6c1;
             border-radius: 50%;
             z-index: 7;
         }
         &-pink-2 {
             position: absolute;
-            top: -174px;
-            left: -170px;
+            top: -157px;
+            left: -256px;
             width: 279px;
             height: 310px;
-            background-color: #f74c55;
+            background-color: #278ea5;
             border-radius: 50%;
             z-index: 6;
         }
         &-green-3 {
             position: absolute;
-            top: -146px;
-            left: -225px;
+            top: -159px;
+            left: -280px;
             border-radius: 50%;
             width: 386px;
             height: 425px;
-            background-color: #2d5f3b;
+            background-color: #0f117a;
             z-index: 5;
         }
         &-blue-4 {
             position: absolute;
-            top: -105px;
-            left: -217px;
+            top: -110px;
+            left: -260px;
             border-radius: 50%;
             width: 450px;
             height: 494px;
-            background-color: #82a3ad;
+            background-color: #c6da20;
             z-index: 4;
         }
         &-pink-5 {
             position: absolute;
-            top: -99px;
-            left: -253px;
-            width: 550px;
-            height: 550px;
-            background-color: #f74c55;
+            top: -110px;
+            left: -275px;
+            width: 580px;
+            height: 590px;
+            background-color: #2b007b;
             border-radius: 50%;
             z-index: 3;
         }
@@ -129,7 +137,7 @@
             left: -324px;
             width: 750px;
             height: 750px;
-            background-color: #404040;
+            background-color: #278ea5;
             border-radius: 50%;
             z-index: 2;
         }
@@ -140,7 +148,7 @@
             width: 800px;
             height: 800px;
             border-radius: 50%;
-            background-color: #fb636b;
+            background-color: #1f4287;
             z-index: 1;
         }
     }
@@ -151,7 +159,7 @@
             right: -129px;
             width: 189px;
             height: 189px;
-            background-color: #ee732f;
+            background-color: #21e6c1;
             border-radius: 50%;
             z-index: 5;
         }
@@ -161,7 +169,7 @@
             right: -181px;
             width: 278px;
             height: 278px;
-            background-color: #f74c55;
+            background-color: #278ea5;;
             border-radius: 50%;
             z-index: 4;
         }
@@ -171,7 +179,7 @@
             right: -223px;
             width: 383px;
             height: 383px;
-            background-color: #2d5f3b;
+            background-color: #c6da20;
             border-radius: 50%;
             z-index: 3;
 
@@ -182,7 +190,7 @@
             right: -241px;
             width: 465px;
             height: 465px;
-            background-color: #404040;
+            background-color: #2b007b;
             border-radius: 50%;
             z-index: 2;
         }
@@ -192,7 +200,7 @@
             right: -235px;
             width: 527px;
             height: 527px;
-            background-color: #fb636b;
+            background-color: #1f4287;
             border-radius: 50%;
             z-index: 1;
         }
@@ -221,27 +229,27 @@
         .orange {
             width: 36px;
             height: 32px;
-            background-color: #ee732f;
+            background-color: #21e6c1;
         }
         .pink {
             width: 36px;
             height: 32px;
-            background-color: #f74c55;
+            background-color: #278ea5;
         }
         .green {
             width: 36px;
             height: 32px;
-            background-color: #2d5f3b;
+            background-color: #c6da20;
         }
         .black {
             width: 36px;
             height: 32px;
-            background-color: #404040;
+            background-color: #2b007b;
         }
         .light-pink {
             width: 36px;
             height: 32px;
-            background-color: #fb636b;
+            background-color: #1f4287;
         }
     }
 }
@@ -254,7 +262,7 @@
             box-sizing: border-box;
             width: 35%;
             height: 304px;
-            background-color: #404040;
+            background-color: #071e3d;
             padding: 34px 47px 32px 161px;
             .cross {
                 margin-top: 21px;
@@ -286,7 +294,7 @@
             box-sizing: border-box;
             width: 30%;
             height: 304px;
-            background-color: #f74c55;
+            background-color: #c6da20;
             padding: 32px 48px;
             .cross {
                 margin-top: 21px;
@@ -302,7 +310,7 @@
                     font-size: 22.1px;
                     line-height: 44px;
                     font-weight: 400;
-                    color: #ffffff;
+                    color: #212121;
                 }
             }
             p {
@@ -311,7 +319,7 @@
                 font-size: 14px;
                 line-height: 24px;
                 font-weight: 300;
-                color: #ffffff;
+                color: #212121;
             }
         }
         .green {
@@ -319,7 +327,7 @@
             padding: 35px 129px 32px 43px;
             width: 35%;
             height: 304px;
-            background-color: #2d5f3b;
+            background-color: #1f4287;
             .cross {
                 margin-top: 18px;
             }
@@ -374,6 +382,11 @@
         font-size: 20px;
         display: block;
         margin: 51px auto 0;
+        &:hover {
+            background-color: rgba(#c6da20, .5);
+            color: #212121;
+            border: none;
+        }
     }
     .colorful-string {
         position: absolute;
@@ -385,37 +398,37 @@
         .green-short {
             width: 18px;
             height: 9px;
-            background-color: #2d5f3b;
+            background-color: #002651;
         }
         .green {
             width: 36px;
             height: 9px;
-            background-color: #2d5f3b;
+            background-color: #278ea5;
         }
         .pink {
             width: 36px;
             height: 9px;
-            background-color: #f74c55;
+            background-color: #c6da20;
         }
         .pink-short {
             width: 22px;
             height: 9px;
-            background-color: #f74c55;
+            background-color: #c6da20;
         }
         .black {
             width: 36px;
             height: 9px;
-            background-color: #404040;
+            background-color: #071e3d;
         }
         .orange {
             width: 36px;
             height: 9px;
-            background-color: #ee732f;
+            background-color: #1f4287;
         }
         .light-pink {
             width: 36px;
             height: 9px;
-            background-color: #fb636b;
+            background-color: #21e6c1;
         }
     }
 }

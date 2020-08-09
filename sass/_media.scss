@@ -1,12 +1,49 @@
 @media (max-width: 1199px) {
     .container {
-        max-width: 970px;
+        max-width: 780px;
     }
 
     .promo {
+        h1 {
+            font-size: 40px;
+            left: 5px;
+        }
+        .big {
+            &-ornage-1 {
+                width: 224px;
+            }
+            &-green-3 {
+                width: 358px;
+                height: 394px;
+            }
+            &-blue-4 {
+                height: 417px;
+                width: 446px;
+                top: -100px;
+                left: -292px;
+            }
+            &-pink-5 {
+                height: 519px;
+                width: 554px;
+                top: -104px;
+                left: -292px;
+            }
+            &-black-6 {
+                height: 650px;
+                width: 708px;
+                top: -135px;
+                left: -370px;
+            }
+            &-pink-7 {
+                height: 680px;
+                width: 785px;
+                top: -120px;
+                left: -360px;
+            }
+        }
         .promotion {
             width: 239px;
-            margin: 162px 537px 0;
+            margin: 162px 472px 0;
         }
     }
 
@@ -51,13 +88,13 @@
             }
 
             &-green-3 {
-                width: 370px;
-                height: 390px;
+                width: 360px;
+                height: 420px;
             }
 
             &-blue-4 {
-                width: 430px;
-                height: 440px;
+                width: 450px;
+                height: 430px;
             }
 
             &-pink-5 {
@@ -71,8 +108,8 @@
             }
 
             &-pink-7 {
-                width: 700px;
-                height: 700px;
+                width: 750px;
+                height: 750px;
             }
         }
 
@@ -107,7 +144,6 @@
     .only {
         padding: 46px 0 25px;
     }
-
     .triple {
         .wrapper {
             .grey {
@@ -169,21 +205,71 @@
     }
 }
 
-@media (max-width: 578px) {
+@media (max-width: 767px) {
+    .container {
+        max-width: 480px;
+        header nav ul {
+            width: 245px;
+            font-size: 12px;
+        }
+    }
+    .promo {
+        .big {
+            &-pink-5 {
+                width: 510px;
+                height: 530px;
+            }
+            &-black-6 {
+                display: none;
+            }
+            &-pink-7 {
+                width: 630px;
+                height: 680px;
+            }
+        }
+        .small {
+            &-orange-1, &-pink-2, &-green-3, &-black-4, &-pink-5 {
+                display: none;
+            }
+        }
+        .promotion {
+            margin: 47px 280px 0;
+            &-title {
+                font-size: 30px;
+                margin-top: 200px;
+            }
+            &-subtitle {
+                font-size: 14px;
+            }
+        }
+    }
+    .triple .wrapper {
+        .grey, .pink, .green {
+            width: 33.3%;
+            height: 384px;
+            padding: 30px 25px 25px;
+            h3 {
+                font-size: 12px;
+            }
+            p {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 599px) {
     .container {
         max-width: 390px;
         padding: 0 5px;
     }
-
     .promo {
         h1 {
             left: 50px;
         }
-
         header {
             display: none;
         }
-
         .promotion {
             margin: 19px 282px 0;
             width: 120px;
@@ -194,6 +280,7 @@
 
             &-title {
                 font-size: 15px;
+                margin-top: 0;
             }
 
             &-button {
@@ -202,11 +289,9 @@
                 font-size: 15px;
             }
         }
-
         .small {
             display: none;
         }
-
         .big {
             &-orange-1 {
                 width: 159px;
@@ -230,14 +315,15 @@
             }
 
             &-pink-5 {
-                width: 472px;
-                height: 431px;
+                width: 430px;
+                height: 430px;
                 top: -120px;
                 left: -254px;
             }
 
             &-black-6 {
-                width: 583px;
+                display: block;
+                width: 563px;
                 height: 577px;
                 top: -144px;
                 left: -324px;
@@ -264,7 +350,6 @@
             margin: 0;
         }
     }
-
     .triple {
         .wrapper {
             flex-direction: column;
@@ -339,30 +424,35 @@
             &-orange-1 {
                 width: 150px;
                 height: 144px;
+                top: -89px;
+                left: -103px;
             }
             &-pink-2 {
-                width: 216px;
-                height: 239px;
+                display: none;
             }
             &-green-3 {
-                width: 310px;
-                height: 271px;
+                display: none;
             }
             &-blue-4 {
-                width: 345px;
+                width: 375px;
                 height: 332px;
+                top: -150px;
             }
             &-pink-5 {
                 width: 431px;
-                height: 393px;
+                height: 405px;
+                top: -155px;
+                left: -286px;
             }
             &-black-6 {
-                width: 529px;
+                width: 520px;
                 height: 506px;
+                top: -170px;
             }
             &-pink-7 {
-                width: 522px;
+                width: 515px;
                 height: 572px;
+                top: -160px;
             }
         }
     }
@@ -415,31 +505,30 @@
         }
         .big {
             &-orange-1 {
-                width: 150px;
-                height: 144px;
+                display: none;
             }
             &-pink-2 {
-                width: 209px;
-                height: 229px;
+                display: none;
             }
             &-green-3 {
-                width: 294px;
-                height: 248px;
+                display: none;
             }
             &-blue-4 {
                 width: 318px;
                 height: 279px;
+                top: -170px;
+                left: -260px;
             }
             &-pink-5 {
                 width: 396px;
                 height: 329px;
             }
             &-black-6 {
-                width: 497px;
+                width: 480px;
                 height: 428px;
             }
             &-pink-7 {
-                width: 489px;
+                width: 480px;
                 height: 496px;
             }
         }
